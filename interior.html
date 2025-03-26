@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Projects - Design Perceptions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+
+
+
+        .slideshow-container { border: 5px solid white; box-shadow: 0px 4px 8px rgba(255,0,0); }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 70%; /* Reduced width */
+            margin: auto;
+        }
+        .slide {
+            display: none;
+            text-align: center;
+        }
+        .slide img {
+            width: 100%;
+            max-height: 700px; /* Reduced height */
+            object-fit: cover;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+        }
+        .prev { left: 0; }
+        .next { right: 0; }
+    </style>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+              <ul>
+                    <li><a href="dp.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="project.html">PROJECTS
+                        <div class="dropdown">
+                            <ul>
+                            <li><a href="interior.html">INTERIOR</a></li>
+                            <li><a href="exterior.html">EXTERIOR</a></li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="Award.html">AWARDS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>INTERIOR</h1>
+    </section><br>
+    
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <button class="prev" onclick="plusSlides(-1, 0)">&#10094;</button>
+        <div class="slide fade">
+            <img src="images/int20.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int13.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int21.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7061.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7110.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7096.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7131.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7152.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7198.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7277.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int4.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int6.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int7.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int12.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int14.jpg">
+        </div>
+        
+        
+        <button class="next" onclick="plusSlides(1, 0)">&#10095;</button>
+    </div><br><br>
+
+
+    <div class="slideshow-container">
+        <button class="prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+        <div class="slide fade">
+            <img src="images/int16.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int17.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int18.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7070.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7079.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7087.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/067A7237.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int1.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int3.jpg">
+        </div>
+         <div class="slide fade">
+            <img src="images/int9.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int10.jpg">
+        </div>
+        
+        
+        
+        <button class="next" onclick="plusSlides(1, 1)">&#10095;</button>
+    </div>
+    <br><br>
+
+    <div class="slideshow-container">
+        <button class="prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+        <div class="slide fade">
+            <img src="images/int10.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int11.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int12.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int12.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int18.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/Int21.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/Int22.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int16.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int20.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int15.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="images/int11.jpg">
+        </div>
+        <button class="next" onclick="plusSlides(1, 2)">&#10095;</button>
+    </div>
+    
+
+
+
+    <script>
+        function startSlideshow(containerClass, index) {
+            let slideIndex = 0;
+            function showSlides() {
+                let slides = document.querySelectorAll(containerClass + " .slide");
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1; }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000);
+            }
+            showSlides();
+        }
+        function plusSlides(n, slideshowIndex) {
+            let slides = document.querySelectorAll(`.slideshow-container:nth-of-type(${slideshowIndex + 1}) .slide`);
+            let displayedIndex = Array.from(slides).findIndex(slide => slide.style.display === "block");
+            slides[displayedIndex].style.display = "none";
+            let newIndex = (displayedIndex + n + slides.length) % slides.length;
+            slides[newIndex].style.display = "block";
+        }
+        startSlideshow(".slideshow-container:nth-of-type(1)", 0);
+        startSlideshow(".slideshow-container:nth-of-type(2)", 1);
+        startSlideshow(".slideshow-container:nth-of-type(3)", 2);
+    </script><br><br>
+  
+
+
+                <!-- Footer section  -->
+
+
+    <section class="footer">
+        <h4><u>CONNECT</u></h4>
+        <p>+703-883-8080 <br> 
+        design.perception99@gmail.com<br>
+        Floor-II, Purva Sankul, In Front Of S.A College, Civil Lines, Akola-444 001 Maharashtra <br>
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/designperceptions99"><i class="fa fa-facebook"></i></a>
+            <a href="https://wa.link/ld955y"><i class="fa fa-WhatsApp"></i></a>
+            <a href="https://www.instagram.com/design__perceptions/profilecard/?igsh=eGl6bTVjZzI4NG8z"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/design-perceptions/"><i class="fa fa-linkedin"></i></a>
+            <a href="http://www.youtube.com/@DesignPerceptions-so3ce"><i class="fa fa-youtube"></i></a>
+            <a href="https://maps.app.goo.gl/6brmWRm93Ug33nV27"><i class="fa fa-map-marker"></i></a> 
+        </div>
+    </section>    
+</body>
+</html>
